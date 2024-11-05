@@ -1,0 +1,57 @@
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 80vw;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    color: #333;
+}
+.title p {
+    font-size: 26px;
+    font-weight: 500;
+    color: #333;
+}
+
+.one{
+    width: 120px;
+    height: 10px;
+    border: 1px solid #868585;
+    border-radius: 8px;
+    padding-bottom: 8px;
+}
+
+.two {
+    width: 9px;
+    height: 9px;
+    border-radius: 50px;
+    background: #ea580c;
+    margin-bottom: 50px;
+    animation:  roll 2s infinite linear;
+}
+
+
+@keyframes roll {
+    100% {
+        transform: translateX(115px);
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 640px) {
+.title h1{
+    font-size: 30px;
+}
+}

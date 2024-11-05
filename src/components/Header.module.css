@@ -1,0 +1,51 @@
+.header{
+width: 80vw;
+margin: auto;
+margin-top: 40px;
+}
+.header h2 {
+    font-size:  22px;
+    font-weight: 700;
+    color: #333;
+}
+
+.h2{
+    margin-bottom: 20px;
+}
+.header p {
+    font-size:  16px;
+    font-weight: 600;
+    color: #4b4a4a;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+}
+.wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+}
+
+.items {
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.items img {
+    margin-top:  8px;
+    width:50px;
+    height: 40px;
+}
+
+
+@media (max-width: 640px) {
+   .wrapper {
+    flex-direction: column;
+   }
+}

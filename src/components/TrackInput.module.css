@@ -1,0 +1,95 @@
+.track {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    background: rgba(248, 170, 26, 0.212);
+}
+.track form {
+    display: flex;
+    flex-direction: column;
+}
+
+.track form input {
+    border-radius: 4px;
+    padding: 0.5rem 1.5rem;
+    background: #fff;
+}
+.track form input:focus {
+    border: 1px solid #ea580c;
+    outline: #ea580c;
+}
+
+.track button {
+    width: 164px;
+    margin-top: 10px;
+}
+
+.track img {
+    width: 700px;
+}
+
+.details {
+    margin: auto;
+    margin-left: 80px;
+    width: 50%;
+}
+.details h1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #000;
+}
+
+.details p {
+    font-size:  28px;
+    font-weight: 600;
+    color: #4b4a4a;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+}
+
+.details form p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ea580c;
+}
+
+@media (max-width: 768px) {
+    .track {
+
+    }
+    .details h1 {
+        font-size: 36px;
+    }
+    .details p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 640px) {
+    .track{
+        flex-direction: column;
+    }
+    .details{
+        margin: auto;
+    }
+    .details h1{
+        font-size: 35px;
+    }
+    .details p{
+        font-size: 12px;
+    }
+    .track button {
+        width: 100%;
+    }
+    .track form input{
+        font-size: 14px;
+    }
+    .break{
+        display: none;
+    }
+}
