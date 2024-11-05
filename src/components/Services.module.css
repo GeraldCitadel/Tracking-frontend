@@ -21,6 +21,7 @@
 .header img {
     padding: 28px;
     border-radius: 4px;
+    width: 300px;
 }
 
 .header h1 {
